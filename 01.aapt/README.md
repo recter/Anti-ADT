@@ -3,9 +3,7 @@
 
 分析ADT原理用到的测试文件与demo
 
-## Anti-ADT
-
-> 解密ADT第一篇-aapt工具详解
+## 解密ADT第一篇-aapt工具详解
 
 
 > p[package]:aapt编译资源头命令;
