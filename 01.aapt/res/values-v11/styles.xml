@@ -1,0 +1,7 @@
+<resources>
+
+        <style name="flsdk_AppTheme" parent="android:Theme.Light.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>

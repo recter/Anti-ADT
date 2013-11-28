@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <include layout="@layout/flsdk_base_bg_layout_land" />
+
+    <LinearLayout style="@style/flsdk_style_body_lay" >
+
+        <!--  include layout="@layout/flsdk_base_username_layout" /-->
+
+        <RelativeLayout
+            android:id="@+id/flsdk_login_account_lay"
+            android:layout_width="386dp"
+            android:layout_height="wrap_content"
+            
+            android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/flsdk_login_account_title"
+        style="@style/flsdk_style_c2c2c2_14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:singleLine="true" />
+
+ 
+    
+    <EditText
+        android:id="@+id/flsdk_login_account_text"
+        style="@style/flsdk_style_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100.0dip"
+        android:background="@color/flsdk_gamehelper_color_transparent"
+        android:gravity="center_vertical"
+        android:hint="请输入帐号"
+        android:paddingLeft="8.0dip" />
+    
+
+</RelativeLayout>
+        
+        <include
+            android:id="@+id/flsdk_band_num_lay"
+           android:layout_gravity="center_horizontal"
+            android:layout_width="280.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6.0dip"
+            layout="@layout/flsdk_base_edit_layout" />
+
+        <com.fl.gamehelper.ui.widget.BoldButton
+            android:id="@+id/flsdk_verify_count_down_btn"
+            style="@style/flsdk_style_btn_yellow"
+                   android:layout_gravity="center_horizontal"
+            android:layout_width="180.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6.0dip"
+    
+            android:onClick="countClick"
+            android:text="重新获取验证码" />
+
+        <include
+            android:id="@+id/flsdk_band_code_lay"
+            android:layout_width="280.0dip"
+             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6.0dip"
+            layout="@layout/flsdk_base_edit_layout" />
+
+        <include
+           android:layout_gravity="center_horizontal"
+            android:layout_width="180.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6.0dip"
+            layout="@layout/flsdk_register_button_layout"
+            />
+    </LinearLayout>
+
+    <include layout="@layout/flsdk_base_loading_layout" />
+
+</merge>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <include
+        android:layout_width="wrap_content"
+        layout="@layout/flsdk_base_bg_layout_land" />
+
+    <LinearLayout    style="@style/flsdk_style_body_lay" >
+
+        <LinearLayout
+            android:layout_width="280.0dip"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="2.0dip" >
+
+            <TextView
+                android:id="@+id/flsdk_manager_account_name"
+                style="@style/flsdk_style_c2c2c2_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawablePadding="16.0dip"
+                android:gravity="left"
+                android:padding="2.0dip"
+                android:paddingBottom="4.0dip"
+                android:text="name" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="280.0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/flsdk_account_manager_bottom"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="2.0dip" >
+
+            <RelativeLayout
+                android:id="@+id/flsdk_manager_account_modify_pwd"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                android:background="@drawable/flsdk_account_manager_round_up_select"
+                android:orientation="horizontal"
+                android:paddingTop="2.0dip" >
+
+                <TextView
+                    android:id="@+id/flsdk_manager_account_editpwd"
+                    style="@style/flsdk_style_c2c2c2_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:padding="8.0dip"
+                    android:paddingLeft="10.0dip"
+                    android:text="修改密码" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right"
+                    android:padding="8.0dip"
+                    android:src="@drawable/flsdk_account_manager_arrow" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/flsdk_manager_account_set_account"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="2.0dip"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/flsdk_manager_account_band_hide"
+                    style="@style/flsdk_style_c2c2c2_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:padding="8.0dip"
+                     android:paddingLeft="10.0dip"
+                    android:text="设置帐号" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right"
+                    android:padding="8.0dip"
+                    android:src="@drawable/flsdk_account_manager_arrow" />
+            </RelativeLayout>
+            <ImageView android:id="@+id/flsdk_manager_account_split_line"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="2.0dip" 
+                android:src="@drawable/flsdk_account_line" />
+            <RelativeLayout
+                
+                android:id="@+id/flsdk_manager_account_switch"
+                  android:layout_width="280.0dip"
+                android:layout_height="wrap_content"
+                android:background="@drawable/flsdk_account_manager_round_botom_select"
+                android:orientation="horizontal"
+                android:paddingTop="2.0dip" >
+                <TextView
+                    style="@style/flsdk_style_c2c2c2_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:padding="8.0dip"
+                    android:text="注销登录" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right"
+                    android:padding="8.0dip"
+                    android:src="@drawable/flsdk_account_manager_arrow" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/flskd_manager_account_security_tips"
+             android:layout_width="280.0dip"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="2.0dip" >
+
+            <TextView
+                android:id="@+id/flsdk_manager_account_level"
+                style="@style/flsdk_style_c2c2c2_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawablePadding="16.0dip"
+                android:gravity="left"
+                android:padding="8.0dip"
+                android:text="帐号安全级别" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/flsdk_manager_account_band_layout"
+             android:layout_width="280.0dip"
+            android:layout_height="wrap_content"
+              android:layout_gravity="center"
+            android:orientation="horizontal"
+             android:gravity="center"
+            android:paddingTop="2.0dip" >
+
+            <TextView
+                android:id="@+id/flsdk_manager_account_band"
+                style="@style/flsdk_style_c2c2c2_14"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/flsdk_account_manager_bottom"
+                android:gravity="left"
+                android:padding="8.0dip"
+                android:text="绑定手机/邮箱" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:padding="8.0dip"
+                android:src="@drawable/flsdk_account_manager_arrow" />
+        </RelativeLayout>
+
+        <include layout="@layout/flsdk_base_divide_line_layout" />
+
+        <TextView
+            android:id="@+id/flsdk_manager_account_band_tips"
+            style="@style/flsdk_style_c2c2c2_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="当您忘记账号密码时，可通过手机/邮箱找回密码，从而降低您的损失。" />
+    </LinearLayout>
+
+    <include layout="@layout/flsdk_base_loading_layout" />
+
+</merge>

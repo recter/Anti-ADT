@@ -1,0 +1,37 @@
+<resources>
+
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="app_name">GameHelper</string>
+    <string name="hello_world">Welcome to  flSDK</string>
+ 
+    <string name="flsdk_app_name">GameHelper</string>
+    <string name="flsdk_hello_world">Hello world!</string>
+    <string name="flsdk_menu_settings">Settings</string>
+
+    <!-- begin -->
+    <string name="flsdk_game_html_template_begin">
+<![CDATA[
+		<!DOCTYPE html>
+		<html>
+		<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+		<meta content="telephone=no" name="format-detection">
+		<style type="text/css">
+		html,body,div,ul,li,img{ margin:0; padding:0;}
+		body img{max-width:90%;}
+		body{padding:10px;}
+		</style>
+		<body>
+	]]>
+    </string>
+
+    <!-- end -->
+    <string name="flsdk_game_html_template_end">
+<![CDATA[
+    	</body></html>
+    ]]>
+    </string>
+
+</resources>

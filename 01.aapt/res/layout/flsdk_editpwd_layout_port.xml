@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <include layout="@layout/flsdk_base_bg_layout_port" />
+
+    <LinearLayout style="@style/flsdk_style_body_lay_port" >
+
+        <include layout="@layout/flsdk_base_username_layout" />
+
+        <include
+            android:id="@+id/flsdk_editpwd_old_lay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14.0dip"
+            layout="@layout/flsdk_base_edit_layout" />
+
+        <include
+            android:id="@+id/flsdk_editpwd_new_lay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14.0dip"
+            layout="@layout/flsdk_base_edit_layout" />
+
+        <TextView
+            android:id="@+id/flsdk_editpwd_new_tip"
+            style="@style/flsdk_style_c2c2c2_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip"
+            android:text="密码为6-20个字母、数字"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/flsdk_editpwd_sure_lay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14.0dip"
+            layout="@layout/flsdk_base_edit_layout" />
+
+        <include
+            android:id="@+id/flsdk_editpwd_check_lay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip"
+            layout="@layout/flsdk_base_checkbox_layout"
+            android:visibility="gone" />
+
+        <include
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="14.0dip"
+            layout="@layout/flsdk_register_button_layout" />
+    </LinearLayout>
+
+    <include layout="@layout/flsdk_base_loading_layout" />
+
+</merge>

@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ 
+    tools:context=".WelcomeActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+    <CheckBox
+        android:id="@+id/vertical_screen_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/guest_login_button"
+        android:layout_marginBottom="35dp"
+        android:onClick="verticalScreenSwitch"
+        android:text="竖屏开关" />
+    
+    <Button
+        android:id="@+id/user_login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/guest_login_button"
+        android:layout_alignRight="@+id/account_login_button"
+        android:onClick="userLogin"
+        android:text="登  录" />
+
+    <Button
+        android:id="@+id/account_login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/vertical_screen_checkBox"
+        android:layout_alignRight="@+id/vertical_screen_checkBox"
+        android:onClick="accountLogin"
+        android:visibility="gone" 
+        android:text="自有帐号登录" />
+
+    <Button
+        android:id="@+id/guest_login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/account_login_button"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="28dp"
+        android:onClick="guestLogin"
+        android:text="游客登录" />
+
+    <CheckBox
+        android:id="@+id/autologin_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/vertical_screen_checkBox"
+        android:onClick="autoLoginSwitch"
+        android:text="下次启动自动登录" />
+
+</RelativeLayout>

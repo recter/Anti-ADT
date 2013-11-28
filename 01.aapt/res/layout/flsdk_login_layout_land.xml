@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <include layout="@layout/flsdk_base_bg_layout_land" />
+
+    <LinearLayout style="@style/flsdk_style_body_lay" >
+
+        <include
+            android:id="@+id/flsdk_login_account_lay"
+            layout="@layout/flsdk_login_account_layout" />
+
+        <include layout="@layout/flsdk_base_divide_line_layout" />
+
+        <include
+            android:id="@+id/flsdk_login_pwd_lay"
+            layout="@layout/flsdk_login_pwd_edit_layout" />
+
+        <include layout="@layout/flsdk_base_divide_line_layout" />
+
+        <include layout="@layout/flsdk_login_btn_layout_land" />
+
+        <include layout="@layout/flsdk_base_divide_line_img" />
+
+        <include layout="@layout/flsdk_login_third_layout_land" />
+
+        <include layout="@layout/flsdk_base_divide_line_img" />
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/flsdk_login_forget_pwd_btn"
+                style="@style/flsdk_style_c2c2c2_14"
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content"
+                       android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+                 android:textIsSelectable="true">
+
+             </TextView>
+                </RelativeLayout>
+
+    </LinearLayout>
+
+    <include layout="@layout/flsdk_base_loading_layout" />
+
+</merge>

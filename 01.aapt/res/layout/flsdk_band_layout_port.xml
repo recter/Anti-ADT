@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <include layout="@layout/flsdk_base_bg_layout_port" />
+
+    <LinearLayout style="@style/flsdk_style_body_lay_port" >
+
+        <include layout="@layout/flsdk_base_username_layout" />
+
+        <include
+            android:id="@+id/flsdk_band_num_lay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12.0dip"
+            layout="@layout/flsdk_base_edit_layout" />
+
+        <com.fl.gamehelper.ui.widget.BoldButton
+            android:id="@+id/flsdk_verify_count_down_btn"
+              style="@style/flsdk_style_btn_yellow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="14.0dip"
+            android:layout_marginRight="14.0dip"
+            android:layout_marginTop="14.0dip"
+            android:onClick="countClick"
+            android:text="重新获取验证码" />
+
+        <include
+            android:id="@+id/flsdk_band_code_lay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14.0dip"
+            layout="@layout/flsdk_base_edit_layout" />
+
+        <include
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14.0dip"
+            android:layout_marginRight="14.0dip"
+            android:layout_marginTop="14.0dip"
+            layout="@layout/flsdk_register_button_layout"
+            />
+    </LinearLayout>
+
+    <include layout="@layout/flsdk_base_loading_layout" />
+
+</merge>

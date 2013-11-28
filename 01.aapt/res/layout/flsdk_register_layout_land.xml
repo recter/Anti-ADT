@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <include layout="@layout/flsdk_base_bg_layout_land" />
+
+    <LinearLayout style="@style/flsdk_style_body_lay" >
+
+        <include
+            android:id="@+id/flsdk_register_account_lay"
+            android:layout_width="280.0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center"
+            layout="@layout/flsdk_base_edit_layout"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/flsdk_register_account_tip"
+            style="@style/flsdk_style_c2c2c2_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center"
+            android:layout_marginTop="2.0dip"
+            android:text="帐号为4-20位中/英文、数字、&apos;_&apos;、&apos;-&apos;，不能为纯数字" />
+
+        <include
+            android:id="@+id/flsdk_register_new_pwd_lay"
+            android:layout_width="280.0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center"
+            android:layout_marginTop="10.0dip"
+            layout="@layout/flsdk_base_edit_layout"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/flsdk_register_new_pwd_tip"
+            style="@style/flsdk_style_c2c2c2_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center"
+            android:layout_marginTop="2.0dip"
+            android:text="密码为6-20个字母、数字"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/flsdk_register_sure_pwd_lay"
+            android:layout_width="280.0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10.0dip"
+            layout="@layout/flsdk_base_edit_layout"
+            android:gravity="center_vertical" />
+
+        <include
+            android:id="@+id/flsdk_register_pwd_check_lay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2.0dip"
+            layout="@layout/flsdk_base_checkbox_layout"
+            android:visibility="gone" />
+
+        <include
+            android:layout_width="120.0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center"
+            android:layout_marginBottom="20.0dip"
+            android:layout_marginLeft="14.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="10.0dip"
+            layout="@layout/flsdk_register_button_layout" />
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center"
+            layout="@layout/flsdk_register_protocal_layout"
+            android:gravity="center_vertical" />
+    </LinearLayout>
+
+    <include layout="@layout/flsdk_base_loading_layout" />
+
+</merge>

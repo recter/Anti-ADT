@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+ 
+
+    <!--  com.fl.gamehelper.ui.widget.BoldButton
+        android:id="@+id/flsdk_login_register_btn"
+        style="@style/flsdk_style_btn_green"
+        android:layout_width="92.0dip"
+        android:layout_marginRight="8.0dip"
+        android:layout_toRightOf="@+id/flsdk_login_login_btn"
+        android:onClick="registerClick"
+        android:text="我要注册" / -->
+
+    
+     
+    <com.fl.gamehelper.ui.widget.BoldButton
+        android:id="@+id/flsdk_login_login_btn"
+        style="@style/flsdk_style_btn_yellow"
+       android:layout_centerVertical="true"
+        android:layout_width="120.0dip"
+        android:layout_centerInParent="true"
+        android:onClick="loginClick"
+        android:text="登  录" />
+    
+    
+     <TextView
+        android:id="@+id/flsdk_login_register_btn"
+        style="@style/flsdk_style_c2c2c2_14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+      
+   
+         
+/>
+
+</RelativeLayout>

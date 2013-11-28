@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+      >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="3.0dip" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="6.0dip" >
+
+            <ImageView
+                android:id="@+id/iv_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 
+                android:contentDescription="@string/app_name"
+                android:src="@null" />
+
+            <TextView
+                android:id="@+id/tv_nickname_lzz"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6.0dip"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="退出接口"
+                android:textColor="#FFFFFFFF"
+                android:textSize="12.0dip" />
+
+            <Button
+                android:id="@+id/btn_exit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/change_account" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.fl.gamehelper.ui.widget.GameToolBar
+        android:id="@+id/flsdk_game_tool_bar_lizhize"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

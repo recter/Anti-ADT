@@ -1,0 +1,1 @@
+aapt package -f -m -z -J out -S res -I D:\ANE\android\android-2.1_r01-windows\platforms\android-17\android.jar -M AndroidManifest.xml
