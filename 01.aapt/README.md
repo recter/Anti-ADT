@@ -7,12 +7,6 @@
 
 > 解密ADT第一篇-aapt工具详解
 
-`aapt 工具解析`
-`by Rect`
-`github.com/recter`
-`www.shadowkong.com`  
-`2013/11/39`
-
 
 > p[package]:aapt编译资源头命令;
 > 
@@ -75,6 +69,8 @@
 > -J:指定R.java输出的路径
 > 
 > raw-file-dir:附加打包进APK的文件,在移动MM的ANE中可以使用这个命令来把资源打包进去,这样就省去了繁杂的一堆命令操作.
+
+
 ## 无资源国际化
 `aapt package -f -m -J out -S res -I D:\ANE\android\android-2.1_r01-windows\platforms\android-17\android.jar -M AndroidManifest.xml`
 
