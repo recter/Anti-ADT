@@ -1,10 +1,10 @@
-Anti-ADT
+﻿Anti-ADT
 ========
 
 分析ADT原理用到的测试文件与demo
 
-## Anti-ADT
-> 解密ADT第一篇-aapt工具详解
+## 解密ADT第一篇-aapt工具详解
+> update in 2013/11/29
 
 ## 作者
 
