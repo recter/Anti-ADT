@@ -174,7 +174,7 @@
 
 * 编译cless文件为dex文件
 
-`dx --dex ---outpath=bin\cless.dex .`
+`dx --dex ---outpath=bin\cless.dex  .`
 
 ## 作者
 
