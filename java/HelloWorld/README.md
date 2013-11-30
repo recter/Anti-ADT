@@ -172,6 +172,10 @@
 
 `java HelloWorld`
 
+* 编译cless文件为dex文件
+
+`dx --dex ---outpath=bin\cless.dex .`
+
 ## 作者
 
 本文章 由  [rect](http://www.shadowkong.com/) 所写。
