@@ -5,11 +5,11 @@
 
 ## JAVA相关的结构
 
-![jdk](https://github.com/recter/Anti-ADT/tree/master/java/image/jvm-jre-jdk.png "jdk")  
+![jdk](https://github.com/recter/Anti-ADT/tree/master/java/image/jvm-jre-jdk.png)  
 
 ## 编译整个android流程
 
-![apk](https://github.com/recter/Anti-ADT/tree/master/java/image/apk.png "apk")  
+![apk](https://github.com/recter/Anti-ADT/tree/master/java/image/apk.png)  
 
 ## 作者
 
