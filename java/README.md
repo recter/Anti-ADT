@@ -9,7 +9,7 @@
 
 ## 编译整个android流程
 
-![apk](https://github.com/recter/Anti-ADT/tree/master/java/image/apk.png)  
+![apk](/image/apk.png)  
 
 ## 作者
 
