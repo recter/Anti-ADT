@@ -5,7 +5,7 @@
 
 ## JAVA相关的结构
 
-![jdk](https://github.com/recter/Anti-ADT/tree/master/java/image/jvm-jre-jdk.png)  
+![jdk](/image/jvm-jre-jdk.png)  
 
 ## 编译整个android流程
 
