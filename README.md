@@ -14,4 +14,4 @@
 
 ## 作者
 
-本文章 由  [rect](http://www.shadowkong.com/) 所写。
+本文章 由  [rect](http://www.shadowkong.com/) 所写。文中所述仅代表个人理解
