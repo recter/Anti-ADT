@@ -12,6 +12,8 @@
 * 解密ADT第三篇-java编译工具详解
 > [update in 2013/12/1](http://http://www.shadowkong.com/archive/1429)
 
+* 解密ADT第四篇-编译源码
+
 ## 作者
 
 本文章 由  [rect](http://www.shadowkong.com/) 所写。文中所述仅代表个人理解
