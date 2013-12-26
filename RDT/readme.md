@@ -54,4 +54,4 @@ ADT个人定制版,本版为预览版 仅实现了下列部分内容
 [传送门](lenovo/buildAPK/lenovo_apk.bat)
 
 ## 关于Rect
-[传送门](www.shadowkong.com)
+[传送门](http://www.shadowkong.com)
