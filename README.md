@@ -13,6 +13,10 @@
 > [update in 2013/12/1](http://http://www.shadowkong.com/archive/1429)
 
 * 解密ADT第四篇-编译源码
+> [update in 2013/12/20](http://www.shadowkong.com/archives/1460)
+
+* 解密ADT第五篇-案例分析
+> [update in 2013/12/23](http://www.shadowkong.com/archives/1476)
 
 ## 作者
 
