@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources  xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="com_lenovo_lsf_app_name">UserFramework</string> 
+
+    <string name="com_lenovo_lsf_lenovouser_app_name">Lenovo ID</string>
+	<string name="com_lenovo_lsf_lenovouser_btn_ok">OK</string>
+	<string name="com_lenovo_lsf_lenovouser_btn_cancel">Cancel</string>
+	<string name="com_lenovo_lsf_lenovouser_btn_retry">Retry</string>
+
+	<string name="com_lenovo_lsf_lenovouser_forget_error1">Invalid authenticode</string>
+	<string name="com_lenovo_lsf_lenovouser_forget_error3">No such user</string>
+
+	<string name="com_lenovo_lsf_lenovouser_forget_progess">Changing password, please wait...</string>
+	<string name="com_lenovo_lsf_lenovouser_forget_failuret">Change password failed</string>
+	<string name="com_lenovo_lsf_lenovouser_forget_failure">Network connection error. Please retry.</string>
+
+	<string name="com_lenovo_lsf_lenovouser_change_error1">Incorrect password</string>
+	<string name="com_lenovo_lsf_lenovouser_change_error2">Passwords do not match</string>
+	<string name="com_lenovo_lsf_lenovouser_change_error3">Please enter a password with correct format</string>
+	<string name="com_lenovo_lsf_lenovouser_change_progess">Changing password, please wait......</string>
+	<string name="com_lenovo_lsf_lenovouser_change_success">Password changed.</string>
+	<string name="com_lenovo_lsf_lenovouser_change_failure">Network connection error. Please retry.</string>
+
+	<string name="com_lenovo_lsf_lenovouser_login_text0">Log in Lenovo account</string>
+	<string name="com_lenovo_lsf_lenovouser_login_text7">Login successful</string>
+
+	<string name="com_lenovo_lsf_lenovouser_login_progess">Logging in, please wait...</string>
+	<string name="com_lenovo_lsf_lenovouser_login_failure">Login failed</string>
+	<string name="com_lenovo_lsf_lenovouser_login_networkfailure">Network connection error. Please retry.</string>
+	<string name="com_lenovo_lsf_lenovouser_login_resendfailure">Your account is not activated yet. Send another
+		activation email to this email address?</string>
+	<string name="com_lenovo_lsf_lenovouser_login_resendfailure1">Your account is not activated yet. Send another
+		activation message to this mobile number?</string>
+	<string name="com_lenovo_lsf_lenovouser_login_rprogess">Sending activation email, please wait...</string>
+	<string name="com_lenovo_lsf_lenovouser_login_resendst">Activation email sent</string>
+	<string name="com_lenovo_lsf_lenovouser_login_resends">A new activation email has been sent to your
+		registered email address, please check.</string>
+	<string name="com_lenovo_lsf_lenovouser_login_resendft">Resend activation email failed</string>
+	<string name="com_lenovo_lsf_lenovouser_login_resendf">Network connection error. Please retry.</string>
+	<string name="com_lenovo_lsf_lenovouser_login_rprogess1">Sending activation SMS, please wait...</string>
+	<string name="com_lenovo_lsf_lenovouser_login_resendst1">Activation SMS has been sent</string>
+	<string name="com_lenovo_lsf_lenovouser_login_resends1">A new activation SMS has been sent to your registered mobile number, please check.</string>
+	<string name="com_lenovo_lsf_lenovouser_login_resendft1">Resend activation SMS failed</string>
+	<string name="com_lenovo_lsf_lenovouser_login_resendf1">Network connection error. Please retry.</string>
+
+	<string name="com_lenovo_lsf_lenovouser_login_error1">No such user</string>
+	<string name="com_lenovo_lsf_lenovouser_login_error2">Incorrect password,please find it first</string>
+	<string name="com_lenovo_lsf_lenovouser_login_error3">Please activate your account before logging in </string>
+	<string name="com_lenovo_lsf_lenovouser_login_error4">Please input password</string>
+	<string name="com_lenovo_lsf_lenovouser_login_error5">Please input account</string>
+	<string name="com_lenovo_lsf_lenovouser_login_error6">Your account has been locked temporarily because of the error login for five times,please try again again after 10 minutes</string>
+	<string name="com_lenovo_lsf_lenovouser_login_error7">Username format is not correct</string>
+	<string name="com_lenovo_lsf_lenovouser_login_error8">Account has been disabled</string>
+    <string name="com_lenovo_lsf_lenovouser_login_error10">Invalid request parameter</string>
+	<string name="com_lenovo_lsf_lenovouser_login_error11">Invalid appkey</string>
+    <string name="com_lenovo_lsf_lenovouser_login_error12">Invalid thirdpayty accesstoken</string>
+    <string name="com_lenovo_lsf_lenovouser_login_error13">Invalid realm</string>
+	<string name="com_lenovo_lsf_lenovouser_login_error20">Unknown error,error code:</string>
+	
+	<string name="com_lenovo_lsf_lenovouser_userinfo_text16">Log out of the LenovoID</string>
+	<string name="com_lenovo_lsf_lenovouser_userinfo_text17">Are you sure to log out of the LenovoID?</string>
+
+	<string name="com_lenovo_lsf_lenovouser_userinfo_logouting">Logging out, please wait...</string>
+	<string name="com_lenovo_lsf_lenovouser_userinfo_logouts">LenovoID logged out</string>
+
+	<string name="com_lenovo_lsf_lenovouser_register_error1">Username format is not correct</string>
+	<string name="com_lenovo_lsf_lenovouser_register_error2">This Lenovo ID is already exist</string>
+	<string name="com_lenovo_lsf_lenovouser_register_error3">Please enter a password with correct format
+	</string>
+	<string name="com_lenovo_lsf_lenovouser_register_error4">Passwords do not match</string>
+	<string name="com_lenovo_lsf_lenovouser_register_error5">Invalid authenticode</string>
+	<string name="com_lenovo_lsf_lenovouser_register_error6">Obtain authenticode failed</string>
+
+	<string name="com_lenovo_lsf_lenovouser_register_progess">Registering, please wait...</string>
+	<string name="com_lenovo_lsf_lenovouser_register_failuret">Register account failed</string>
+	<string name="com_lenovo_lsf_lenovouser_register_failure">Network connection error. Please retry.</string>
+	<string name="com_lenovo_lsf_lenovouser_register_sendprogess">Sending activation email, please wait...</string>
+	<string name="com_lenovo_lsf_lenovouser_register_sendfailuret">Resend activation email failed</string>
+	<string name="com_lenovo_lsf_lenovouser_register_sendfailure">Network connection error. Please retry.</string>
+	<string name="com_lenovo_lsf_lenovouser_register_sendsuccesst">Activation email sent</string>
+	<string name="com_lenovo_lsf_lenovouser_register_sendsuccess">A new activation email has been sent to your registered email address, please check.</string>
+	<string name="com_lenovo_lsf_lenovouser_register_sendprogess1">Sending activation SMS, please wait...</string>
+	<string name="com_lenovo_lsf_lenovouser_register_sendfailuret1">Resend activation SMS failed</string>
+	<string name="com_lenovo_lsf_lenovouser_register_sendfailure1">Network connection error. Please retry.</string>
+	<string name="com_lenovo_lsf_lenovouser_register_sendsuccesst1">Activation SMS has been sent</string>
+	<string name="com_lenovo_lsf_lenovouser_register_sendsuccess1">A new activation SMS has been sent to your registered mobile number, please check.</string>
+	<string name="com_lenovo_lsf_lenovouser_userinfo_registerlegalt">Terms of Service</string>
+
+	<string name="com_lenovo_lsf_lenovouser_onekey_error_titlt">Registration failed</string>
+	<string name="com_lenovo_lsf_lenovouser_onekey_imeiinvalid">The IMEI number is invalid.</string>
+	
+ 	<string name="com_lenovo_lsf_psauthen_text15">The following one or more applications request permission to access your account, now and in the future.</string>
+  	<string name="com_lenovo_lsf_psauthen_text16">Allow</string>	
+  	<string name="com_lenovo_lsf_psauthen_text17">Deny</string>
+  	<string name="com_lenovo_lsf_psauthen_text18">Do you want to allow this request?</string>	
+  	<string name="com_lenovo_lsf_psauthen_text19">Access Request</string>
+	<string name="com_lenovo_lsf_psauthen_text20">Can not login two diffent accounts</string>
+	<string name="com_lenovo_lsf_psauthen_error1">Network connection error. Please retry.</string>
+	<string name="com_lenovo_lsf_psauthen_error2">The PID account can\'t login</string>
+	<string name="com_lenovo_lsf_psauthen_error3">The user does not exist</string>
+	<string name="com_lenovo_lsf_psauthen_error4">Password error</string>
+	<string name="com_lenovo_lsf_psauthen_error5">Please activate your account</string>
+	<string name="com_lenovo_lsf_psauthen_error6">The account has been disabled</string>
+	<string name="com_lenovo_lsf_psauthen_error7">The account is locked</string>
+	<string name="com_lenovo_lsf_psauthen_error8">Network connection error. Please retry.</string>
+	<string name="com_lenovo_lsf_psauthen_error9">User cancelled</string>
+	<string name="com_lenovo_lsf_psauthen_error10">Duplicate lenovo accountType</string>
+
+	<!-- new ui -->
+    <string name="com_lenovo_lsf_ui_name">Lenovo ID</string>
+    <string name="com_lenovo_lsf_login_string_login_sina">sina登录</string>
+    <string name="com_lenovo_lsf_login_string_login_qq">qq登录</string>
+    <string name="com_lenovo_lsf_login_string_login">Sign in</string>
+    <string name="com_lenovo_lsf_login_string_registration">Sign up</string>
+    <string name="com_lenovo_lsf_login_string_havenoid"></string>
+    <string name="com_lenovo_lsf_login_string_forgetpwd"><u>Forgotten password?</u></string>
+    <string name="com_lenovo_lsf_login_string_account">Lenovo ID </string>
+    <string name="com_lenovo_lsf_login_string_password">Password  </string>
+    <string name="com_lenovo_lsf_login_string_accounthint">abc@example.com</string>
+    <string name="com_lenovo_lsf_login_string_pwdhint">4-20 characters</string>
+    <string name="com_lenovo_lsf_login_string_sendrequest">Sending sign-in request...</string>
+    <string name="com_lenovo_lsf_login_string_verifing">Signing in...</string>
+    <string name="com_lenovo_lsf_login_string_agree">Login namely say that you agree to </string>
+    <string name="com_lenovo_lsf_login_string_protocol">Login namely say that you agree to <u>Terms of Service</u></string>
+    
+    <string name="com_lenovo_lsf_register_string_login">Sign in</string>
+    <string name="com_lenovo_lsf_register_string_haveid"></string>
+    <string name="com_lenovo_lsf_register_string_register">Sign up</string>
+    <string name="com_lenovo_lsf_register_string_registerinfo">If you already have a Lenovo ID, please back to sign in</string>
+    <string name="com_lenovo_lsf_register_string_account">Lenovo ID</string>
+    <string name="com_lenovo_lsf_register_string_setpwd">Password</string>
+    <string name="com_lenovo_lsf_register_string_confirmpwd">Password</string>
+    <string name="com_lenovo_lsf_register_string_location_selection">What your home country/region?</string>
+    <string name="com_lenovo_lsf_register_string_confirmpwd_hint">retype password</string>
+    <string name="com_lenovo_lsf_register_string_verifycode">Verifycode</string>
+    <string name="com_lenovo_lsf_register_string_changeanother">Change</string>
+    <string name="com_lenovo_lsf_register_string_agree">I agree to the</string>
+    <string name="com_lenovo_lsf_register_string_protocol">I agree to the <u>Terms of Service</u></string>
+    <string name="com_lenovo_lsf_register_string_accounthint">abc@example.com</string>
+    <string name="com_lenovo_lsf_register_string_setpwdhint">4-20 characters</string>
+   <string name="com_lenovo_lsf_register_string_verifycodehint">type the following code</string>
+    <string name="com_lenovo_lsf_register_string_countries">Location</string>
+    
+    <string name="com_lenovo_lsf_forget_string_findpassword">Forgotten password</string>
+    <string name="com_lenovo_lsf_forget_string_findpasswordinfo">We will send your password to your mailbox or phone.</string> 
+    <string name="com_lenovo_lsf_forget_string_reset">Submit</string>
+    
+    <string name="com_lenovo_lsf_change_string_changepassword">Change password</string>
+    <string name="com_lenovo_lsf_change_string_oldpassword">Current password</string>
+    <string name="com_lenovo_lsf_change_string_newpassword">New password</string>
+    <string name="com_lenovo_lsf_change_string_confirmpassword">Confirm password</string>
+    <string name="com_lenovo_lsf_change_string_confirm">Submit</string>
+    <string name="com_lenovo_lsf_change_string_confirmset">Submit</string>
+    <string name="com_lenovo_lsf_change_string_setpassword">Set password</string>
+    <string name="com_lenovo_lsf_change_string_please_input_oldpassword">Type your current password. </string>
+    <string name="com_lenovo_lsf_change_string_please_input_newpassword">Type a new password. </string>
+    <string name="com_lenovo_lsf_change_string_please_input_newpassword_senced">Type the new password again. </string>
+    
+    <string name="com_lenovo_lsf_myaccount_string_myaccount">My account</string>
+    <string name="com_lenovo_lsf_myaccount_string_account">Lenovo ID:</string>
+    <string name="com_lenovo_lsf_myaccount_string_accountinfo">abc@example.com</string>
+    <string name="com_lenovo_lsf_myaccount_string_changeaccount">Change account</string>
+    <string name="com_lenovo_lsf_myaccount_string_status">Status:</string>
+    <string name="com_lenovo_lsf_myaccount_string_statusinfo_not_verify">Not verified</string>
+    <string name="com_lenovo_lsf_myaccount_string_statusinfo_verified">Verified</string>
+    <string name="com_lenovo_lsf_myaccount_string_statusinfo_getting">Getting status...</string>
+    <string name="com_lenovo_lsf_myaccount_string_statusinfo_getting_error">Error getting status.</string>
+    <string name="com_lenovo_lsf_myaccount_string_verify">Verify</string>
+    <string name="com_lenovo_lsf_myaccount_string_password">Password:</string>
+    <string name="com_lenovo_lsf_myaccount_string_passwordno">No password</string>
+    <string name="com_lenovo_lsf_myaccount_string_passwordyes">Has password</string>
+    <string name="com_lenovo_lsf_myaccount_string_setpassword">Set password</string>
+    <string name="com_lenovo_lsf_myaccount_string_changepassword">Change</string>
+    <string name="com_lenovo_lsf_myaccount_string_time">Sign-in time:</string>
+    <string name="com_lenovo_lsf_myaccount_string_timeinfo">2010-4-1 10:13:21</string>
+    <string name="com_lenovo_lsf_myaccount_string_logout">Log out</string>
+
+    <string name="com_lenovo_lsf_forgetsuccess_string_success">Sent successfully</string> 
+    <string name="com_lenovo_lsf_forgetsuccess_string_detail">A new password has been sent to your <xliff:g id="type">%1$s</xliff:g>:</string> 
+    <string name="com_lenovo_lsf_forgetsuccess_string_mailbox">mailbox</string>
+    <string name="com_lenovo_lsf_forgetsuccess_string_phone">phone</string>
+    <string name="com_lenovo_lsf_forgetsuccess_string_checkmail">Check mail</string>
+    <string name="com_lenovo_lsf_forgetsuccess_string_checksms">Check sms</string>
+    <string name="com_lenovo_lsf_forgetsuccess_string_login">Sign in</string>
+    <string name="com_lenovo_lsf_forgetfail_string_fail">Error sending password.</string>
+    <string name="com_lenovo_lsf_forgetfail_string_detail">Explanation</string>
+    <string name="com_lenovo_lsf_forgetfail_string_resend">Resend password</string>
+    <string name="com_lenovo_lsf_forgetfail_string_empty_verify_code">Type your verification code.</string>
+
+    <string name="com_lenovo_lsf_registersuccess_string_success">Sign up successful</string>
+    <string name="com_lenovo_lsf_registersuccess_string_detailmail1">A verification e-mail has been sent to your mailbox:</string>
+    <string name="com_lenovo_lsf_registersuccess_string_detailmail2">Tap the link in the e-mail to verify your account!</string>
+    <string name="com_lenovo_lsf_registersuccess_string_detailphone1">A verification code has been sent to your phone:</string>
+    <string name="com_lenovo_lsf_registersuccess_string_detailphone2">Tap the link in SMS to verify your account.</string>
+    <string name="com_lenovo_lsf_registersuccess_string_login">Sign in</string>
+    <string name="com_lenovo_lsf_registersuccess_string_resend">Resend</string>
+    <string name="com_lenovo_lsf_register_time_out">Sign up timed out. Try again.</string>
+    <string name="com_lenovo_lsf_registersuccess_string_resend_phone">Resend verification message</string> 
+    <string name="com_lenovo_lsf_registersuccess_string_resend_mail">Resend verification e-mail</string>
+    <string name="com_lenovo_lsf_username_not_null">Type your Lenovo ID</string>
+    <string name="com_lenovo_lsf_password_not_null">Type your password</string>
+    <string name="com_lenovo_lsf_senced_password_not_null">Retype your password</string>
+    <string name="com_lenovo_lsf_click_sixty_min_later">Wait 60 seconds before clicking again.</string>
+    <string name="com_lenovo_lsf_account_settings">Account settings</string>
+    <string name="com_lenovo_lsf_account_settings_summery"> </string>
+    <string name="com_lenovo_lsf_login_password_error">Password error. Type the correct password.</string>
+    <string name="com_lenovo_lsf_forget_password_error">Operation is frequent, please try again later</string>
+    <string name="com_lenovo_lsf_app_upgrade_notification">LenovoServiceFramework upgrade</string>
+    <string name="com_lenovo_lsf_binding_string_account">LenovoID:</string>
+    <string name="com_lenovo_lsf_binding_another_account"><u>Bind another LenovoID</u></string>
+    <string name="com_lenovo_lsf_account_binding_welcome">Welcome,</string>
+    <string name="com_lenovo_lsf_account_binding_exists_account_description">find your email setting in your <xliff:g id="type">%1$s</xliff:g> is already LenovoID,please input your password to bind to Micro bo/QQ</string>
+    <string name="com_lenovo_lsf_account_binding_description">Click ok will bind the account below to your <xliff:g id="type">%1$s</xliff:g> account</string>
+    <string name="com_lenovo_lsf_account_binding_input_description">Sign up or input exists LenovoID to bind</string>
+    <string name="com_lenovo_lsf_account_binding_progress_description">request sending...</string>
+    <string name="com_lenovo_lsf_account_link_third_accout_timeout">thirdParty account Connection overtime,please retry!</string>
+    <string name="com_lenovo_lsf_account_binding_error">binding account error</string>
+     <string name="com_lenovo_lsf_account_has_binding_antheor">The LenovoId has already binding anthor third account!</string>
+    <string name="com_lenovo_lsf_thirdaccount_has_binding_antheor_lenovoid">The third account has already binding anthor LenovoID!</string>
+    <string name="com_lenovo_lsf_update">update</string>
+    <string name="com_lenovo_lsf_about">about</string>
+    <string name="com_lenovo_lsf_third_login">Third account login</string>
+    <string name="com_lenovo_lsf_normal_login">Has an account Login:</string>
+    <string name="com_lenovo_lsf_check_update">check updating...</string>
+    <string name="com_lenovo_lsf_update_already_last_version">the current version is already last version</string>
+    <string name="com_lenovo_lsf_app_version">Soft version</string>
+    <string name="com_lenovo_lsf_app_web_url_label">Web portal</string>
+    <string name="com_lenovo_lsf_app_web_url"><u>http://passport.lenovo.com</u></string>
+    <string name="com_lenovo_lsf_app_copyright">Copyright(C) 1998-2012</string>
+    <string name="com_lenovo_lsf_app_copyright_bottom">Lenovo company All rights reserved</string>
+    <string name="com_lenovo_lsf_webview_refresh">Refresh</string>
+    <string name="com_lenovo_lsf_binding_acitivities_details">Details</string>
+    <string name="com_lenovo_lsf_password_cannot_be_blank">Please enter a password with correct format</string>
+    <string name="com_lenovo_lsf_binding_account_phone_num">This phone number</string>
+    <string name="com_lenovo_lsf_binding_account_name_sina">Micro bo</string>
+    <string name="com_lenovo_lsf_binding_account_name_qq">QQ</string>
+    <string name="com_lenovo_lsf_onekey_airplanemode">You can not use this function in  airplane mode，please turn off it first</string>
+    <string name="com_lenovo_lsf_open_sms_error">Open sms error，please ensure that your sms application has been properly installed or whether has been disable by security software</string>
+    <string name="com_lenovo_lsf_open_browser_error">Open Browser error，please ensure that your browser application has been properly installed or whether has been disable by security software</string>
+    <string name="com_lenovo_lsf_get_update_pkginfo_null">Can not get update information,Please check network is ready </string>
+    
+    <string name="com_lenovo_lsf_tgt_error">The current account has expired, please login again</string>
+    <string name="com_lenovo_lsf_sim_error">The Current mobile phone sim card unavailable </string>
+    <string name="com_lenovo_lsf_auto_oneKeyLogin_times_more_than_limit">Today auto login number already more than limit, please tomorrow to use of the operation</string>
+    <string name="com_lenovo_lsf_auto_oneKeyLogin_application_no_permissions">Your application has no right to use of the operation</string>
+	<string name="com_lenovo_lsf_auto_oneKeyLogin_goinig">Please wait for the last time login operation to complete</string>
+	<string name="com_lenovo_lsf_sso_sina_login_progress">Micro bo logining, please later...</string>
+    <string name="com_lenovo_lsf_sso_sina_auth_cancel">Authentication cancel</string>
+    <string name="com_lenovo_lsf_sso_sina_auth_error">Authentication failed:</string>
+    <string name="com_lenovo_lsf_third_token_time_out">Token is expired</string>
+    <string name="com_lenovo_lsf_choose_location_title">CHOOSE AN ITEM</string>
+    <string name="com_lenovo_lsf_add_another_login_name">Add the account alias</string>
+    <string name="com_lenovo_lsf_add_another_login_name_description">Use <xliff:g id="type">%1$s</xliff:g> for login name</string>
+    <string name="com_lenovo_lsf_add_another_login_name_mail">email</string>
+    <string name="com_lenovo_lsf_add_another_login_name_phonenum">phone number</string>
+    <string name="com_lenovo_lsf_add_another_login_name_Label">Account alias</string>
+    <string name="com_lenovo_lsf_delete_another_login_name_Label">Delete account alias</string>
+    <string name="com_lenovo_lsf_add_another_login_name_error">Getting error</string>
+    <string name="com_lenovo_lsf_account_not_verified">Account inactive, to activate immediately</string>
+    <string name="com_lenovo_lsf_account_not_verified_description">After activation can enjoy more advanced features and services</string>
+    <string name="com_lenovo_lsf_account_info_getting">Get the user information, please later...</string>
+    <string name="com_lenovo_lsf_account_info_getting_error">Failed to get user information</string>
+    <string name="com_lenovo_lsf_set_network">Set up the network</string>
+    <string name="com_lenovo_lsf_no_network">Without a valid network connection</string>
+    <string name="com_lenovo_lsf_bind_third">Binding social account</string>
+    <string name="com_lenovo_lsf_more_info">More account options</string>
+    <string name="com_lenovo_lsf_quickly_login">Quick login</string>
+    <string name="com_lenovo_lsf_webview_error_text1">Failed to connect to the Internet</string>
+    <string name="com_lenovo_lsf_webview_error_text2">Please check your network connection</string>
+    <string name="com_lenovo_lsf_webview_error_text3">Try </string>
+    <string name="com_lenovo_lsf_webview_error_text4">refresh</string>
+    <string name="com_lenovo_lsf_phone_login">Mobile phone number</string>
+    <string name="com_lenovo_lsf_sina_login">Sina weibo account</string>
+    <string name="com_lenovo_lsf_qq_login">QQ Account</string>
+</resources>

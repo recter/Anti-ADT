@@ -1,0 +1,515 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<application xmlns="http://ns.adobe.com/air/application/3.5">
+	
+	<!-- Adobe AIR Application Descriptor File Template.
+	
+	Specifies parameters for identifying, installing, and launching AIR applications.
+	
+	xmlns - The Adobe AIR namespace: http://ns.adobe.com/air/application/3.5
+	The last segment of the namespace specifies the version 
+	of the AIR runtime required for this application to run.
+	
+	minimumPatchLevel - The minimum patch level of the AIR runtime required to run 
+	the application. Optional.
+	-->
+	
+	<!-- A universally unique application identifier. Must be unique across all AIR applications.
+	Using a reverse DNS-style name as the id is recommended. (Eg. com.example.ExampleApplication.) Required. -->
+	<id>com.lenovo.ane.lenovo</id>
+	
+	<!-- Used as the filename for the application. Required. -->
+	<filename>Lenovo(ByRect)</filename>
+	
+	<!-- The name that is displayed in the AIR application installer. 
+	May have multiple values for each language. See samples or xsd schema file. Optional. -->
+	<name>Lenovo(ByRect)</name>
+	
+	<!-- A string value of the format <0-999>.<0-999>.<0-999> that represents application version which can be used to check for application upgrade. 
+	Values can also be 1-part or 2-part. It is not necessary to have a 3-part value.
+	An updated version of application must have a versionNumber value higher than the previous version. Required for namespace >= 2.5 . -->
+	<versionNumber>0.0.0</versionNumber>
+	
+	<!-- A string value (such as "v1", "2.5", or "Alpha 1") that represents the version of the application, as it should be shown to users. Optional. -->
+	<!-- <versionLabel></versionLabel> -->
+	
+	<!-- Description, displayed in the AIR application installer.
+	May have multiple values for each language. See samples or xsd schema file. Optional. -->
+	<!-- <description></description> -->
+	
+	<!-- Copyright information. Optional -->
+	<!-- <copyright></copyright> -->
+	
+	<!-- Publisher ID. Used if you're updating an application created prior to 1.5.3 -->
+	<!-- <publisherID></publisherID> -->
+	
+	<!-- Settings for the application's initial window. Required. -->
+	<initialWindow>
+		<!-- The main SWF or HTML file of the application. Required. -->
+		<!-- Note: In Flash Builder, the SWF reference is set automatically. -->
+		<content>androidLenovoSample.swf</content>
+		
+		<!-- The title of the main window. Optional. -->
+		<!-- <title></title> -->
+		
+		<!-- The type of system chrome to use (either "standard" or "none"). Optional. Default standard. -->
+		<!-- <systemChrome></systemChrome> -->
+		
+		<!-- Whether the window is transparent. Only applicable when systemChrome is none. Optional. Default false. -->
+		<!-- <transparent></transparent> -->
+		
+		<!-- Whether the window is initially visible. Optional. Default false. -->
+		<!-- <visible></visible> -->
+		
+		<!-- Whether the user can minimize the window. Optional. Default true. -->
+		<!-- <minimizable></minimizable> -->
+		
+		<!-- Whether the user can maximize the window. Optional. Default true. -->
+		<!-- <maximizable></maximizable> -->
+		
+		<!-- Whether the user can resize the window. Optional. Default true. -->
+		<!-- <resizable></resizable> -->
+		
+		<!-- The window's initial width in pixels. Optional. -->
+		<!-- <width></width> -->
+		
+		<!-- The window's initial height in pixels. Optional. -->
+		<!-- <height></height> -->
+		
+		<!-- The window's initial x position. Optional. -->
+		<!-- <x></x> -->
+		
+		<!-- The window's initial y position. Optional. -->
+		<!-- <y></y> -->
+		
+		<!-- The window's minimum size, specified as a width/height pair in pixels, such as "400 200". Optional. -->
+		<!-- <minSize></minSize> -->
+		
+		<!-- The window's initial maximum size, specified as a width/height pair in pixels, such as "1600 1200". Optional. -->
+		<!-- <maxSize></maxSize> -->
+		
+		<!-- The aspect ratio of the app ("portrait" or "landscape" or "any"). Optional. Mobile only. Default is the natural orientation of the device -->
+		
+		<!-- <aspectRatio></aspectRatio> -->
+		
+		<!-- Whether the app will begin auto-orienting on launch. Optional. Mobile only. Default false -->
+		
+		 <aspectRatio>landscape</aspectRatio> 
+		
+		<!-- Whether the app launches in full screen. Optional. Mobile only. Default false -->
+		
+		<!-- <fullScreen></fullScreen> -->
+		
+		<!-- The render mode for the app (either auto, cpu, gpu, or direct). Optional. Default auto -->
+		
+		<!-- <renderMode></renderMode> -->
+		
+		<!-- Whether the default direct mode rendering context allocates storage for depth and stencil buffers.  Optional.  Default false. -->
+		<!-- <depthAndStencil></depthAndStencil> -->
+		
+		<!-- Whether or not to pan when a soft keyboard is raised or lowered (either "pan" or "none").  Optional.  Defaults "pan." -->
+		<!-- <softKeyboardBehavior></softKeyboardBehavior> -->
+		
+		<autoOrients>true</autoOrients>
+		<fullScreen>false</fullScreen>
+		<visible>true</visible>
+		<softKeyboardBehavior>none</softKeyboardBehavior>
+	</initialWindow>
+	
+	<!-- We recommend omitting the supportedProfiles element, -->
+	<!-- which in turn permits your application to be deployed to all -->
+	<!-- devices supported by AIR. If you wish to restrict deployment -->
+	<!-- (i.e., to only mobile devices) then add this element and list -->
+	<!-- only the profiles which your application does support. -->
+	<!-- <supportedProfiles>desktop extendedDesktop mobileDevice extendedMobileDevice</supportedProfiles> -->
+	
+	<!-- Languages supported by application -->
+	<!-- Only these languages can be specified -->
+	<!-- <supportedLanguages>en de cs es fr it ja ko nl pl pt ru sv tr zh</supportedLanguages> -->
+	
+	<!-- The subpath of the standard default installation location to use. Optional. -->
+	<!-- <installFolder></installFolder> -->
+	
+	<!-- The subpath of the Programs menu to use. (Ignored on operating systems without a Programs menu.) Optional. -->
+	<!-- <programMenuFolder></programMenuFolder> -->
+	
+	<!-- The icon the system uses for the application. For at least one resolution,
+	specify the path to a PNG file included in the AIR package. Optional. -->
+	<!-- <icon>
+	<image16x16></image16x16>
+	<image29x29></image29x29>
+	<image32x32></image32x32>
+	<image36x36></image36x36>
+	<image48x48></image48x48>
+	<image50x50></image50x50>
+	<image57x57></image57x57>
+	<image58x58></image58x58>
+	<image72x72></image72x72>
+	<image100x100></image100x100>
+	<image114x114></image114x114>
+	<image128x128></image128x128>
+	<image144x144></image144x144>
+	<image512x512></image512x512>
+	<image1024x1024></image1024x1024>
+	</icon> -->
+	
+	<!-- Whether the application handles the update when a user double-clicks an update version
+	of the AIR file (true), or the default AIR application installer handles the update (false).
+	Optional. Default false. -->
+	<!-- <customUpdateUI></customUpdateUI> -->
+	
+	<!-- Whether the application can be launched when the user clicks a link in a web browser.
+	Optional. Default false. -->
+	<!-- <allowBrowserInvocation></allowBrowserInvocation> -->
+	
+	<!-- Listing of file types for which the application can register. Optional. -->
+	<!-- <fileTypes> -->
+	
+	<!-- Defines one file type. Optional. -->
+	<!-- <fileType> -->
+	
+	<!-- The name that the system displays for the registered file type. Required. -->
+	<!-- <name></name> -->
+	
+	<!-- The extension to register. Required. -->
+	<!-- <extension></extension> -->
+	
+	<!-- The description of the file type. Optional. -->
+	<!-- <description></description> -->
+	
+	<!-- The MIME content type. -->
+	<!-- <contentType></contentType> -->
+	
+	<!-- The icon to display for the file type. Optional. -->
+	<!-- <icon>
+	<image16x16></image16x16>
+	<image32x32></image32x32>
+	<image48x48></image48x48>
+	<image128x128></image128x128>
+	</icon> -->
+	
+	<!-- </fileType> -->
+	<!-- </fileTypes> -->
+	
+	<!-- iOS specific capabilities -->
+	<!-- <iPhone> -->
+	<!-- A list of plist key/value pairs to be added to the application Info.plist -->
+	<!-- <InfoAdditions>
+	<![CDATA[
+	<key>UIDeviceFamily</key>
+	<array>
+	<string>1</string>
+	<string>2</string>
+	</array>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleBlackOpaque</string>
+	<key>UIRequiresPersistentWiFi</key>
+	<string>YES</string>
+	]]>
+	</InfoAdditions> -->
+	<!-- A list of plist key/value pairs to be added to the application Entitlements.plist -->
+	<!-- <Entitlements>
+	<![CDATA[
+	<key>keychain-access-groups</key>
+	<array>
+	<string></string>
+	<string></string>
+	</array>
+	]]>
+	</Entitlements> -->
+	<!-- Display Resolution for the app (either "standard" or "high"). Optional. Default "standard" -->
+	<!-- <requestedDisplayResolution></requestedDisplayResolution> -->
+	<!-- </iPhone> -->
+	
+	<!-- Specify Android specific tags that get passed to AndroidManifest.xml file. -->
+	<!--<android> -->
+	<!--	<manifestAdditions>
+	<![CDATA[
+	<manifest android:installLocation="auto">
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<uses-feature android:required="true" android:name="android.hardware.touchscreen.multitouch"/>
+	<application android:enabled="true">
+	<activity android:excludeFromRecents="false">
+	<intent-filter>
+	<action android:name="android.intent.action.MAIN"/>
+	<category android:name="android.intent.category.LAUNCHER"/>
+	</intent-filter>
+	</activity>
+	</application>
+	</manifest>
+	]]>
+	</manifestAdditions> -->
+	<!-- Color depth for the app (either "32bit" or "16bit"). Optional. Default 16bit before namespace 3.0, 32bit after -->
+	<!-- <colorDepth></colorDepth> -->
+	<!-- </android> -->
+	<!-- End of the schema for adding the android specific tags in AndroidManifest.xml file -->
+	
+	<android>
+		<colorDepth>16bit</colorDepth>
+		<manifestAdditions><![CDATA[
+			<manifest android:installLocation="auto">
+			
+			<application>
+        
+       <!-- new ui -->
+        
+        <activity android:name="com.lenovo.lsf.account.PsUserSettingActivity" 
+                  android:configChanges="orientation|keyboard|keyboardHidden"
+                   android:screenOrientation="landscape"
+                  android:launchMode="singleTask">
+			<intent-filter>
+				<action android:name="android.intent.action.USERSETTING" />
+				<action android:name="android.intent.action.MAIN" />
+			</intent-filter>
+		</activity>
+
+		<!-- new ui -->
+		<activity 
+		    android:name="com.lenovo.lsf.account.PsLoginActivity"
+            android:label="@string/com_lenovo_lsf_ui_name" 
+ 		    android:theme="@style/com_lenovo_lsf_ui"
+ 		    android:launchMode="singleTask"
+ 		    android:windowSoftInputMode="stateHidden"
+ 		     android:screenOrientation="landscape"
+ 		    android:configChanges="orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.LOGINREGISTER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="com.lenovo.lsf.sdk.test.openapp.lenovoid" />
+            </intent-filter>
+            <!-- 是否显示第三方登录界面配置 -->
+            <meta-data
+                android:name="isThirdPartyLoginHide"
+                android:value="hiden" >
+            </meta-data>
+            <!-- 是否显示第三方登录界面配置结束 -->
+        </activity>
+         <activity
+            android:name="com.lenovo.lsf.account.ChangePasswordActivity"
+            android:label="@string/com_lenovo_lsf_ui_name" 
+ 		    android:theme="@style/com_lenovo_lsf_ui"
+ 		    android:windowSoftInputMode="stateHidden"
+ 		     android:screenOrientation="landscape"
+ 		    android:configChanges="orientation|keyboardHidden"
+ 		    >
+            <intent-filter>
+                <action android:name="android.intent.action.CHANGEPASSWORD" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lenovo.lsf.account.ForgetPasswordActivity"
+            android:label="@string/com_lenovo_lsf_ui_name" 
+ 		    android:theme="@style/com_lenovo_lsf_ui"
+ 		    android:windowSoftInputMode="stateHidden"
+ 		     android:screenOrientation="landscape"
+ 		    android:configChanges="orientation|keyboardHidden"
+ 		    >
+            <intent-filter>
+                <action android:name="android.intent.action.FORGETPASSWORD" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lenovo.lsf.account.ForgetResultActivity"
+            android:label="@string/com_lenovo_lsf_ui_name" 
+ 		    android:theme="@style/com_lenovo_lsf_ui"
+ 		     android:screenOrientation="landscape"
+ 		    android:configChanges="orientation|keyboardHidden"
+ 		    >
+            <intent-filter>
+                <action android:name="android.intent.action.FORGETRESULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lenovo.lsf.account.MyAccountActivity"
+            android:label="@string/com_lenovo_lsf_ui_name" 
+ 		    android:theme="@style/com_lenovo_lsf_ui"
+ 		     android:screenOrientation="landscape"
+ 		    android:configChanges="orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MYACCOUNT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lenovo.lsf.account.AccountBindingActivity"
+            android:label="@string/com_lenovo_lsf_ui_name" 
+ 		    android:theme="@style/com_lenovo_lsf_ui"
+ 		    android:windowSoftInputMode="stateHidden"
+ 		     android:screenOrientation="landscape"
+ 		    android:configChanges="orientation|keyboardHidden"
+ 		    >
+        </activity>
+        <activity
+            android:name="com.lenovo.lsf.account.ThirdLoginWebView"
+            android:label="@string/com_lenovo_lsf_ui_name" 
+ 		    android:theme="@style/com_lenovo_lsf_ui"
+ 		    android:windowSoftInputMode="stateHidden"
+ 		     android:screenOrientation="landscape"
+ 		    android:configChanges="orientation|keyboardHidden"
+ 		    >
+        </activity>
+        <activity
+            android:name="com.lenovo.lsf.account.WebViewActivity"
+            android:label="@string/com_lenovo_lsf_ui_name" 
+ 		    android:theme="@style/com_lenovo_lsf_ui"
+ 		    android:windowSoftInputMode="stateHidden"
+ 		     android:screenOrientation="landscape"
+ 		    android:configChanges="orientation|keyboardHidden"
+ 		    >
+        </activity>
+        
+        <activity
+            android:name="com.lenovo.mpay.ifmgr.PayManagerActivity"
+            android:launchMode="singleTop"
+             android:screenOrientation="landscape"
+            android:configChanges="keyboardHidden|orientation|screenSize|navigation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+
+         <!-- 银联 -->
+        <activity
+            android:name="com.unionpay.upomp.bypay.activity.SplashActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.unionpay.upomp.bypay.activity.CardMainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.unionpay.upomp.bypay.activity.PayMainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.unionpay.upomp.bypay.activity.PayItActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.unionpay.upomp.bypay.activity.PayResultActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.unionpay.upomp.bypay.activity.AccountMainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.unionpay.upomp.bypay.activity.ChooseBankActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.unionpay.upomp.bypay.activity.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.unionpay.upomp.bypay.activity.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.unionpay.upomp.bypay.activity.GetpassActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.unionpay.upomp.bypay.activity.ResetpassActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.unionpay.upomp.bypay.activity.EditpassActivity"
+            
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.unionpay.upomp.bypay.activity.EditinfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.unionpay.upomp.bypay.activity.AddCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.unionpay.upomp.bypay.activity.AddCardFromAuthActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.unionpay.upomp.bypay.activity.UserProtocalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.unionpay.upomp.bypay.activity.CheckCardBalanceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.unionpay.upomp.bypay.activity.CardInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.unionpay.upomp.bypay.activity.CardBalanceResultActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.unionpay.upomp.bypay.activity.CardBankResultActivity"
+            android:screenOrientation="portrait" />
+      <!-- 一键支付 -->
+        <activity
+            android:name="com.fastpay.sdk.activity.FastPay"
+            android:configChanges="keyboardHidden|orientation|screenSize|navigation"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+            
+            <activity android:name="com.lenovo.func.BridgeActivity"
+		 	android:launchMode="singleTask" android:excludeFromRecents="true"
+			android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+			
+            <intent-filter>
+                 <action android:name="com.lenovo.func.BridgeActivity" />
+                 <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+         </activity>
+         
+         <receiver android:name="com.lenovo.func.LenovoExit$ReSingle">
+            <intent-filter>
+            <action android:name="android.intent.action.LENOVOUSER_STATUS"/>     
+            </intent-filter>           
+         </receiver>
+         
+         <receiver android:name="com.lenovo.func.LenovoExit$ReMuile">
+            <intent-filter>
+            <action android:name="air.com.lenovo.ane.lenovo.android.intent.action.LENOVOUSER_STATUS"/>     
+            </intent-filter>           
+         </receiver>
+         
+         <meta-data android:name="lenovo:applicationToken" android:value="QJFOKY5F65WI" />
+		<meta-data android:name="lenovo:channel" android:value="lenovo_preset" />
+		<meta-data android:name="lenovo:isTestMode" android:value="false" />
+        
+    </application>
+    
+			
+			<uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+	<uses-permission android:name="android.permission.WRITE_SETTINGS" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+<uses-permission android:name="android.permission.RESTART_PACKAGES" />
+			
+			
+			
+			</manifest>
+			
+		]]></manifestAdditions>
+	</android>
+	<iPhone>
+		<InfoAdditions><![CDATA[
+			<key>UIDeviceFamily</key>
+			<array>
+			<string>1</string>
+			<string>2</string>
+			</array>
+		]]></InfoAdditions>
+		<requestedDisplayResolution>high</requestedDisplayResolution>
+	</iPhone>
+	<extensions>
+		
+		<extensionID>com.lenovo.ane</extensionID>
+	</extensions>
+</application>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lenovo.lsf.account.view.KeyboardLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/forget_keyboardLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	<ScrollView
+	    android:id="@+id/forget_scrollview"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:fillViewport="true" >
+	
+	<LinearLayout 
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"
+	    android:orientation="vertical">
+	    
+	    <LinearLayout
+	        style="@style/com_lenovo_lsf_layout_loc">
+	
+	        <TextView
+	            android:id="@+id/forget_text_findpassword"
+	            style="@style/com_lenovo_lsf_head_text"
+	            android:text="@string/com_lenovo_lsf_forget_string_findpassword" />
+	    </LinearLayout>
+	    <ImageView
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_horizontal"
+	            android:layout_marginTop="8dp"
+	            android:layout_marginLeft="5dp"
+	            android:layout_marginRight="5dp"
+	            android:scaleType="fitXY"
+	            android:src="@drawable/com_lenovo_lsf_line" />
+	    <LinearLayout
+	        style="@style/com_lenovo_lsf_layout_loc"
+	        android:layout_marginTop="10dp">
+	        <TextView
+	            android:id="@+id/forget_text_findpasswordinfo"
+	            style="@style/com_lenovo_lsf_detail_text"
+	            android:text="@string/com_lenovo_lsf_forget_string_findpasswordinfo" />
+	    </LinearLayout>
+	
+	    
+	    <LinearLayout
+	            android:id="@+id/forget_layout_error"
+	            style="@style/com_lenovo_lsf_layout_loc"
+	            android:paddingTop="10dp">
+	        
+	            <TextView 
+	                android:id="@+id/forget_text_error"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:textColor="#FFFFFF"
+	                android:gravity="center"
+	                android:background="#FFA200"
+	                style="@style/com_lenovo_lsf_text_size_small"/>
+	            
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        style="@style/com_lenovo_lsf_layout_loc" 
+	        android:paddingTop="0dp">
+	
+	        <RelativeLayout style="@style/com_lenovo_lsf_input_area" >
+	
+	            <TextView
+	                android:id="@+id/forget_text_account"
+	                style="@style/com_lenovo_lsf_input_text"
+	                android:text="@string/com_lenovo_lsf_login_string_account" />
+	
+	            <EditText
+	                android:id="@+id/forget_edit_account"
+	                style="@style/com_lenovo_lsf_input_edit"
+	                android:layout_toRightOf="@id/forget_text_account"
+	                android:hint="@string/com_lenovo_lsf_login_string_accounthint"/>
+	        </RelativeLayout>
+	
+	        <RelativeLayout style="@style/com_lenovo_lsf_input_area" >
+	
+	            <TextView
+	                android:id="@+id/forget_text_verifycode"
+	                style="@style/com_lenovo_lsf_input_text"
+	                android:text="@string/com_lenovo_lsf_register_string_verifycode" />
+	
+	            <EditText
+	                android:id="@+id/forget_edit_verifycode"
+	                style="@style/com_lenovo_lsf_input_edit"
+	                android:layout_toRightOf="@id/forget_text_verifycode"
+	                android:hint="@string/com_lenovo_lsf_register_string_verifycodehint"
+	                android:inputType="number" />
+	        </RelativeLayout>
+	    </LinearLayout>
+	    <LinearLayout 
+	        style="@style/com_lenovo_lsf_layout_loc"
+	        android:paddingTop="0dp">
+	    	<RelativeLayout
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content" >
+	
+	                <ImageView
+	                    android:id="@+id/forget_image_verify"
+	                    android:layout_width="120dp" 
+	                    android:layout_height="40dp"
+						android:scaleType="fitXY"/>
+	
+	                <ImageButton
+	                    android:id="@+id/forget_button_changeanother"
+	                    style="@style/com_lenovo_lsf_button_style"
+	                    android:layout_marginTop="0dp"
+	                    android:layout_width="35dp"
+	                    android:layout_height="35dp"
+	                    android:layout_marginLeft="10dp"
+	                    android:background="@drawable/com_lenovo_lsf_change_verify_code"
+	                    android:layout_toRightOf="@+id/forget_image_verify"/>
+	            </RelativeLayout>
+	    </LinearLayout>
+	    <LinearLayout 
+	        style="@style/com_lenovo_lsf_bottom"
+	        android:layout_marginTop="20dp">
+	        <Button
+	                android:id="@+id/forget_button_reset"
+	                style="@style/com_lenovo_lsf_button_style"
+	                android:text="@string/com_lenovo_lsf_forget_string_reset"/>
+	    </LinearLayout>
+	</LinearLayout>
+	</ScrollView>
+</com.lenovo.lsf.account.view.KeyboardLayout>

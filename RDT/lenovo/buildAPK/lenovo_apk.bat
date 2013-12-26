@@ -1,0 +1,1 @@
+"D:\flashbuilder\Adobe Flash Builder 4.6\sdks\AIR3.5\bin\RDT"  -package -target apk -storetype pkcs12 -keystore a.p12 -storepass 1234 lenovo.apk androidLenovoSample-app.xml androidLenovoSample.swf  values weibosdk_dialog_bg.9.png fastpay iapppay baidugame.txt build_info_file Ebpay.apk upomp_bypay_config.xml -extdir .

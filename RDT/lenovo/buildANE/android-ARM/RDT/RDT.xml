@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension xmlns="http://www.shadowkong.com">
+  <resourceid>com.lenovo.android.res</resourceid>
+  <resourceid>com.lenovo.lsf.account.res</resourceid>
+</extension>
