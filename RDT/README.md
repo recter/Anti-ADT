@@ -51,7 +51,12 @@ ADT个人定制版,本版为预览版 仅实现了下列部分内容
 把`Anti-ADT/RDT/RDT.jar` 放到 `Adobe Flash Builder 4.6\sdks\AIR3.5\lib 下`
 
 ## 使用说明
-[传送门](lenovo/buildAPK/lenovo_apk.bat)
+* 参照如下命令行：[传送门](lenovo/buildAPK/lenovo_apk.bat)
 
-## 关于Rect
-[传送门](www.shadowkong.com)
+## ANE配置说明
+* 把所有`jar库`文件放到此处：`lenovo/buildANE/android-ARM/RDT`
+* 在`RDT.XML`中配置资源路径：`lenovo/buildANE/android-ARM/RDT/RDT.XML`
+
+## 关于
+* 所有案例均以联想SDK做模版
+* 关于Rect：[传送门](http://www.shadowkong.com)
