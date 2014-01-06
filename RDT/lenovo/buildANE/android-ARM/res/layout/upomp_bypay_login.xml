@@ -19,7 +19,7 @@
 				<Button android:id="@+id/btn_login_login"
 					android:layout_width="wrap_content" android:layout_weight="1"
 					android:layout_marginLeft="15dip" android:layout_height="wrap_content"
-					android:background="@drawable/upomp_bypay_sub10_on" android:text="@string/upomp_bypay_loading"
+					android:background="@drawable/upomp_bypay_sub10_on" android:text="我在马路边"
 					android:textColor="#FFFFFF" android:textSize="17sp"/>
 				<Button android:id="@+id/btn_register_login"
 					android:layout_width="wrap_content" android:layout_weight="1"
