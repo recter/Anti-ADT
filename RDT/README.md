@@ -1,5 +1,5 @@
-## RDT(Rect`s ADT) v1.0 ##
-ADT个人定制版, 仅实现了下列部分内容
+## RDT(Rect`s ADT) v1.1 ##
+ADT个人定制版, 仅实现了全部内容
 
 ## 定制内容 ##
 * 自定义AIR主activity的launchMode
@@ -52,10 +52,14 @@ ADT个人定制版, 仅实现了下列部分内容
 
 ## 使用说明
 * 参照如下命令行：[传送门](lenovo/buildAPK/lenovo_apk.bat)
+* 目前只支持：WIN+AIRSDK3.5
 
-## ANE配置说明
+## ANE配置说明(以联想为例子)
+联想有一堆jar库，这里不取消合并`jar`，联想SDK需要把`bin`文件夹打包进去`APK`根目录，这里按照下面配置
+
 * 把所有`jar库`文件放到此处：`lenovo/buildANE/android-ARM/RDT`
 * 在`RDT.XML`中配置资源路径：`lenovo/buildANE/android-ARM/RDT/RDT.XML`
+* 把`bin`文件夹放到：`lenovo/buildANE/android-ARM/ROOT`下 
 
 ## 关于
 * 所有案例均以联想SDK做模版
