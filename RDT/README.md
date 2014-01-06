@@ -1,5 +1,5 @@
-## RDT(Rect`s ADT) v0.9 ##
-ADT个人定制版,本版为预览版 仅实现了下列部分内容
+## RDT(Rect`s ADT) v1.0 ##
+ADT个人定制版, 仅实现了下列部分内容
 
 ## 定制内容 ##
 * 自定义AIR主activity的launchMode
