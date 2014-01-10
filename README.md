@@ -20,4 +20,4 @@
 
 ## 作者
 
-本文章 由  [rect](http://www.shadowkong.com/) 所写。文中所述仅代表个人理解
+本文章 由  [rect](http://www.shadowkong.com/) 所写。文中所述仅代表个人理解,参照AIRSDK版本:3.5
