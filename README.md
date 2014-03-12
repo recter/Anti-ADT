@@ -4,19 +4,22 @@ Anti-ADT
 ## 解密ADT
 
 * 解密ADT第一篇-aapt工具详解.
-> [update in 2013/11/29](https://github.com/recter/Anti-ADT/tree/master/01.aapt)
+> [update in 2013/11/29](http://www.shadowkong.com/archives/1393)
 
 * 解密ADT第二篇-编译APK资源
 > [update in 2013/11/30](http://www.shadowkong.com/archives/1408)
 
 * 解密ADT第三篇-java编译工具详解
-> [update in 2013/12/1](http://http://www.shadowkong.com/archive/1429)
+> [update in 2013/12/1](http://www.shadowkong.com/archive/1429)
 
 * 解密ADT第四篇-编译源码
 > [update in 2013/12/20](http://www.shadowkong.com/archives/1460)
 
 * 解密ADT第五篇-案例分析
 > [update in 2013/12/23](http://www.shadowkong.com/archives/1476)
+
+* 解密ADT终篇-RDT
+> [update in end](http://www.shadowkong.com/archives/1512)
 
 ## 作者
 
