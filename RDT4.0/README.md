@@ -42,7 +42,7 @@ ADT个人定制版, 支持AIR4.0
 把`Anti-ADT/RDT4.0/RDT4.jar` 放到 `Adobe Flash Builder 4.6\sdks\AIR4\lib 下`
 
 ## 使用说明
-* 支持：WIN+AIRSDK4.0
+* 支持：WIN+Mac+AIRSDK4.0
 
 ## ANE配置说明(以联想为例子)
 联想有一堆jar库，这里取消ANE步骤中的合并`jar`；
